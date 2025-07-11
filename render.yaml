@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: exercise-journal
     env: python
     buildCommand: ""
     startCommand: "gunicorn app:app"
+=======
+services:
+  - type: web
+    name: exercise-journal
+    env: python
+    buildCommand: ""
+    startCommand: "gunicorn app:app"
+>>>>>>> 19baee4a74e08986e4a6db34e62ddba0f2280aef
