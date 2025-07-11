@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request, redirect, url_for
-import psycopg2
+from flask import Flask, render_template, request, redirect, url_for # type: ignore
+import psycopg2 # type: ignore
 import os
 from datetime import datetime
 
